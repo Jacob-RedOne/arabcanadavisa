@@ -1,4 +1,12 @@
-body {
-    font-family: Arial, sans-serif;
-    color: #333;
+.message {
+    margin-top: 15px;
+    padding: 10px;
+    display: none; /* Hidden by default */
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+}
+.error {
+    background-color: #dc3545;
 }
