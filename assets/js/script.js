@@ -1,9 +1,8 @@
-// Wait for the document to load before adding event listeners
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("loginForm").addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent the form from actually submitting
+        event.preventDefault(); // Prevents form from actually submitting
 
-        // Show the error message
+        // Show error message
         document.getElementById("errorMessage").style.display = "block";
     });
 });
