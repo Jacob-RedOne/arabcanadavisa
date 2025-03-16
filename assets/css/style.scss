@@ -3,6 +3,7 @@ body {
     background-color: #f4f4f4;
     text-align: center;
     padding: 50px;
+    margin: 0;
 }
 
 .container {
@@ -54,11 +55,11 @@ button:hover {
 .message {
     margin-top: 15px;
     padding: 10px;
-    display: none; /* Hidden by default */
     font-weight: bold;
     font-size: 14px;
     color: white;
     border-radius: 5px;
+    display: none; /* Hidden by default */
 }
 
 .error {
